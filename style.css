@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: Roboto;
+    font-size: 40px;
+    margin-left: 20%;
+    margin-top: 5%;
+    margin-bottom: 1%;
+}
+
+a {
+    font-family: Roboto;
+}
+
+p {
+    font-family: Roboto;
+}
+
+
+
+header {
+    display: flex;
+    height: 50px;
+    width: 100%;
+    background: #F5F5F6;
+}
+
+.logo {
+    margin: auto;
+    margin-left: 10%;
+}
+
+.pages {
+    width: 65%;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.login {
+    margin: auto;
+    padding-right: 10%;
+}
+
+.login-button {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: bold;
+    border: unset;
+    border-radius: 4px;
+    background: #FFFFFF;
+    width: 8vh;
+    height: 40px;
+}
+
+/*///////////////////////////////////*/
+
+.main-axis {
+    margin-left: 20%;
+    width: 60%;
+    display: flex;
+}
+
+.box {
+    width: 30%;
+}
+
+.input-head {
+    font-size: 15px;
+    color: #9F9F9F;
+}
+
+.choose {
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 3px;
+    width: 100%;
+    height: 35px;
+    margin: 5px 0 20px 0;
+}
+
+.input-click {
+    outline: none;
+    width: 20%;
+    border: 1px solid #E5E5E5;
+}
+
+.selected {
+    color: white;
+    background: #833AE0;
+}
+
+.unselected {
+    color: #C6C6C6;
+    background-color: white;
+}
+
+.input-click option {
+    background-color: white;
+    color: black;
+}
+
+.input-zone {
+    border: 1px solid #E5E5E5;
+    border-radius: 4px;
+    height: 100px;
+}
+
+input {
+    font-family: Roboto;
+    font-size: 36px;
+    height: 50px;
+    width: 100%;
+    outline: none;
+    border: none;
+    margin-top: 10px;
+}
+
+.input-info {
+    font-size: 15px;
+    display: flex;
+    color: #C6C6C6;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.other-input-info {
+    font-size: 15px;
+    display: flex;
+    color: #C6C6C6;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.switch {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    justify-content: center;
+    align-items: center;
+}
